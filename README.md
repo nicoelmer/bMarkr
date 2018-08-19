@@ -6,7 +6,7 @@ source: https://github.com/combatwombat/sbt
 - Select text before bookmarking to use as description
 
 ![screenshot](screenshot.png)
-
+![screenshot2](screenshot2.png)
 
 ## Install
 - Have PHP, MySQL and SSL ready
