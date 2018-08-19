@@ -1,0 +1,110 @@
+@charset "utf-8";
+body {
+                font-family: sans-serif;
+                font-size: 0.8em;
+                color: #000;
+                background: #fff;
+}
+.form-login {
+	max-width: 500px;
+	padding: 19px 29px 29px;
+	margin: 0 auto;
+	background-color: #fff;	
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#990000;
+	font-weight:lighter;
+}
+.form-login .form-login-heading {
+    color:#ffffff;
+}
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+.body-container {
+	margin-top:110px;
+}
+.navbar-brand {
+	font-family:"Lucida Handwriting";
+}
+#btn-submit{
+	height:45px;
+}
+
+            .site {
+                margin: 0 auto;
+                padding: 0 10px;
+                width: 100%;
+                max-width: 800px;
+                box-sizing: border-box;
+            }
+            h1 a {
+                color: #000;
+            }
+            .items {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            .items li {
+                margin-bottom: 2em;
+            }
+            a {
+                text-decoration: none;
+                color: #004df9;
+            }
+            .items h2,
+            .items .description,
+            .items .url {
+                margin: 0 0 5px 0;
+                word-break: break-word;
+            }
+            .items .meta time {
+                color: #bbb;
+            }
+            .items .url {
+                display: block;
+                color: #228822;
+            }
+            .items .meta .delete {
+                color: #ca0000;
+            }
+            .bookmarklet {
+                display: inline-block;
+                color: #000;
+                background: #ccc;
+                padding: 5px 10px;
+                border-radius: 3px;
+            }
+            .messages {
+                padding-left: 0;
+                list-style-type: none;
+            }
+            .messages .message {
+                padding-bottom: 5px;
+            }
+            .messages .message.success {
+                color: #00ca00;
+            }
+            .messages .message.error {
+                color: #ca0000;
+            }
+            #extra {
+                padding-bottom: 1em;
+                margin-bottom: 2em;
+                border-bottom: 1px solid #ccc;
+            }
+            @media (max-width: 340px) {
+                h1 {
+                    font-size: 1.9em;
+                }
+            }
