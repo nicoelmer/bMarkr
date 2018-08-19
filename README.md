@@ -5,6 +5,9 @@ source: https://github.com/combatwombat/sbt
 - Import Netscape Bookmark HTML files
 - Select text before bookmarking to use as description
 
+![screenshot](screenshot.png)
+
+
 ## Install
 - Have PHP, MySQL and SSL ready
 - Create database
