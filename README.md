@@ -4,7 +4,7 @@ source: https://github.com/combatwombat/sbt - copied and modified
 - Import Netscape Bookmark HTML files
 - Select text before bookmarking to use as description
 
-![screenshot](screnshot.png)
+![screenshot](screenshot.png)
 ![screenshot2](screenshot2.png)
 
 ## Install
