@@ -50,17 +50,16 @@ if (file_exists('config.php')) {
     $config = array(
         'auth' => array(),
         'db' => array(
-            'name'          => 'bmarkr',
-            'user'          => 'bmarkr',
-            'password'      => '',
-            'host'          => '127.0.0.1',
+            'name'          => '$dbname',
+            'user'          => '$username',
+            'password'      => '$password',
+            'host'          => '$servername',
         ),
         'app' => array(
             'timezone' => 'Europe/Berlin'
         )
     );
 }
-$scriptURL = "Change to sth like: https://myweb.com/anything/bmark.php";
 $messages = array();
 // Basic HTTP auth
 
