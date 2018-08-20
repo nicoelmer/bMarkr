@@ -43,26 +43,22 @@ $row = mysqli_fetch_assoc($resultset);
  * - Upload sbt.php
  * - Click on hamburger menu and add bookmarklet
  */
-
-if (file_exists('config.php')) {
-    include('config.php');
-} else {
+	
     $config = array(
         'auth' => array(),
         'db' => array(
-            'name'          => '$dbname',
-            'user'          => '$username',
-            'password'      => '$password',
-            'host'          => '$servername',
+            'name'          => $dbname,
+            'user'          => $username,
+            'password'      => $password,
+            'host'          => $servername,
         ),
         'app' => array(
             'timezone' => 'Europe/Berlin'
         )
     );
-}
+
 $messages = array();
 // Basic HTTP auth
-
 $dbSchema = <<<EOD
 CREATE TABLE `bookmarks` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
