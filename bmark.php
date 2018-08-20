@@ -53,9 +53,9 @@ if (file_exists('config.php')) {
             'password'      => 'OcinremlE69?'
         ),
         'db' => array(
-            'name'          => 'bmark',
-            'user'          => 'bmark',
-            'password'      => 'wkDy4#05',
+            'name'          => 'bmarkr',
+            'user'          => 'bmarkr',
+            'password'      => '',
             'host'          => '127.0.0.1',
         ),
         'app' => array(
