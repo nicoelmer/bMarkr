@@ -194,8 +194,8 @@ function routeIndex() {
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>bMarkr - Niel's Bookmarker</title>
-        <link rel="icon" type="image/png" href="https://niel.site/bmark/bmark.png" />
-		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+        <link rel='shortcut icon' type='image/x-icon' href='/bmark.ico' />
 
 
         <style media="screen">
