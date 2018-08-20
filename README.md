@@ -12,7 +12,7 @@ source: https://github.com/combatwombat/sbt - copied and modified
 - Create database and insert the tables by importing database.sql
 - Edit db_connect.php
 
-``
+```
 /* Change scriptURL too */
 $scriptURL = "Change to sth like: https://myweb.com/anything/bmark.php";    //change this
 /* Database connection start */
@@ -25,7 +25,7 @@ if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
     exit();
 }
-``
+```
 - Upload files and folders to your server directory
 
 Now you can point to index.php and you are ready to login with username 'test@test.com' and password 'test'. After you successfully login modify the login increditials directly in your phpmyadmin or other MySQL frontend.
