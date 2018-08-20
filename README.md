@@ -18,4 +18,5 @@ Now you can point to index.php and you are ready to login with username 'test@te
 
 Click on the red bookmark icon in order to show the menu and the bookmarklet bMarked!, just drop in your bookmarking bar of your browser and you are ready to go!
 
-
+## Future tasks
+- option to rate bmarks
