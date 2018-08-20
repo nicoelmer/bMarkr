@@ -15,6 +15,7 @@ source: https://github.com/combatwombat/sbt - copied and modified
 ```
 /* Change scriptURL too */
 $scriptURL = "Change to sth like: https://myweb.com/anything/bmark.php";    //change this
+
 /* Database connection start */
 $servername = "localhost";     
 $username = "bmarkr";          //change this
