@@ -1,7 +1,6 @@
 ## bMarkr - a Simply php bookmarking script with bookmarklet
 source: https://github.com/combatwombat/sbt - copied and modified
 
-- Works on github and other pages with Content Security Policy
 - Import Netscape Bookmark HTML files
 - Select text before bookmarking to use as description
 
