@@ -48,10 +48,7 @@ if (file_exists('config.php')) {
     include('config.php');
 } else {
     $config = array(
-        'auth' => array(
-            'user'          => 'niel',
-            'password'      => 'OcinremlE69?'
-        ),
+        'auth' => array(),
         'db' => array(
             'name'          => 'bmarkr',
             'user'          => 'bmarkr',
