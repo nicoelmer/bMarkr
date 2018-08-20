@@ -7,6 +7,8 @@ include_once("db_connect.php");
 <script type="text/javascript" src="script/login.js"></script>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+<link rel='shortcut icon' type='image/x-icon' href='/bmark.ico' />
+
 
 <?php include('container.php');?>
 <div class="container">	
