@@ -60,7 +60,7 @@ if (file_exists('config.php')) {
         )
     );
 }
-$scriptURL = "https://niel.site/bmark/bmark.php";
+$scriptURL = "Change to sth like: https://myweb.com/anything/bmark.php";
 $messages = array();
 // Basic HTTP auth
 
